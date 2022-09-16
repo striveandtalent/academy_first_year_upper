@@ -1,0 +1,8 @@
+
+/* 效果CSS开始 */
+.mod18{width:1200px;position:relative;margin:0 auto; overflow: hidden; height: 526px;}
+.mod18 .picBox ul{height:520px;position:absolute; left:0;}
+.mod18 .picBox li{ padding-right:1px; width:1200px;height:520px; overflow: hidden}
+.mod18 .listBox{width:1100px;height:100px;margin:0 auto;position:relative;overflow:hidden; top: 530px;}
+.mod18 .listBox li{width:215px;height:94px;cursor:pointer;position:relative; padding:5px 0 0 0;   overflow: hidden}
+.mod18 .listBox li a{display:block;width:108px;height:77px;}

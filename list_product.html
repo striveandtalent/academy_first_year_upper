@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>美食特色</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="images/css/bootstrap.css">
+	<link rel="stylesheet" href="images/css/animate.css">
+	<link rel="stylesheet" href="images/css/public.css">
+	<link rel="stylesheet" href="images/css/page.css">
+	<script src="images/js/jquery.min.js"></script>
+	<script src="images/js/bootstrap.js"></script>
+	<script src="images/js/wow.js"></script>
+	<script src="images/js/jqueryphoto.js"></script>
+	<script src="images/js/marquee.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="top">
+			<div class="container">
+				<div class="top-L pull-left">
+					<ul>
+						<li>成都特色美食</li>
+						<li>成都美食种类</li>
+						<li>成都景区特色</li>
+					</ul>
+				</div>
+				<div class="pull-right top-R">
+					<a href="">官方微博</a>
+					<a href="">官方微信</a>
+					<a href="">美食咨询</a>
+				</div>
+			</div>
+		</div>
+		<div class="container top-logo">
+			<figure class="pull-left"><a href="/"><img src="images/tou1.jpg"></a> </figure>
+			<figure class="pull-right top-tel"><img src="images/tou2.jpg"></figure>
+		</div>
+	</header>
+
+	<nav class="menu text-center">
+		<li class=" wow fadeInDown"><a href="index.html">首页<br /><span>home</span></a></li>
+		<li class=" wow fadeInDown"><a href="guanyu.html">关于成都<br /><span>about us</span></a></li>
+		<li class=" wow fadeInDown"><a href="list_product.html" class="active">美食特色<br /><span>characteristic</span></a></li>
+		<li class=" wow fadeInDown"><a href="list_book.html">美食评论<br /><span>comment</span></a></li>
+		<li class=" wow fadeInDown"><a href="list_book.html">宽窄火锅<br /><span>hot pot</span></a></li>
+				<li class=" wow fadeInDown"><a href="zjr.html">特色小吃<br /> <span>nosh</span></a></li>
+		<li class=" wow fadeInDown"><a href="contactus.html">宽窄导航<br /> <span>navigation</span></a></li>
+
+	</nav>
+
+	<div id="div1" class=" wow fadeInDown">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/touxia.jpg" alt="First slide">
+				</div>
+
+				<div class="item">
+					<img src="images/touxia2.jpg" alt="First slide">
+				</div>
+
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<img src="images/left.png">
+				<!--<span class="sr-only">Previous</span>-->
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<img src="images/right.png">
+				<!--<span class="sr-only">Next</span>-->
+			</a>
+		</div>
+	</div>
+
+	<div class="container wow fadeInDown">
+		<div class="place">当前位置：
+			<a href='./'>主页</a> &gt;
+			<a href='list_product.html'>菜品展示</a>
+		</div>
+
+		<div class="subMenu">
+			<ul>
+				<li><a href="niurou.html">牛肉系列</a></li>
+				<li><a href="huncai.html">荤菜系列</a></li>
+				<li><a href="sucai.html">素菜系列</a></li>
+				<li><a href="xiaochi.html">小吃系列</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content ">
+		<h2>精品推荐</h2>
+		<div class="mod18 wow fadeInDown">
+			<span id="prev" class="btn1 prev"><img src="images/left.jpg"></span>
+			<span id="next" class="btn1 next"><img src="images/right.jpg"></span>
+			<span id="prevTop" class="btn1 prev" style="display: none"></span>
+			<span id="nextTop" class="btn1 next" style="display: none"></span>
+
+			<div id="picBox" class="picBox">
+				<ul class="cf">
+					<li> <a href="#"><img src="images/tuijian.jpg" alt="" width="1200"></a> </li>
+					<li> <a href="#"><img src="images/tuijian6.jpg" alt="" width="1200"></a> </li>
+					<li> <a href="#"><img src="images/tuijian3.jpg" alt="" width="1200"></a> </li>
+					<li> <a href="#"><img src="images/tuijian4.jpg" alt="" width="1200"></a> </li>
+					<li> <a href="#"><img src="images/tuijian5.jpg" alt="" width="1200"></a> </li>
+				</ul>
+			</div>
+
+			<div id="listBox" class="listBox" style="display:none !important;">
+				<ul class="cf">
+					<li class="on"><i class="arr2"></i></li>
+					<li><i class="arr2"></i></li>
+					<li><i class="arr2"></i></li>
+					<li><i class="arr2"></i></li>
+					<li><i class="arr2"></i></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="classification wow fadeInDown">
+			<ul class="classification-nav" id="myTab2">
+				<li class="active"><a href="#niurou" data-toggle="tab"><img src="images/icon-niurou.png">牛肉系列</a> </li>
+				<li><a href="#huncai" data-toggle="tab"><img src="images/icon-zhurou.png">荤菜系列</a> </li>
+				<li><a href="#sucai" data-toggle="tab"><img src="images/icon-sucai.png">素菜系列</a> </li>
+				<li><a href="#xiaochi" data-toggle="tab"><img src="images/icon-niurou.png">小吃系列</a> </li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+
+		<div id="myTabContent2" class="tab-content container wow fadeInDown">
+			
+			<div class="tab-pane fade  in active caipin-list" id="niurou">
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/timgO3E9MEN1.jpg"></a>
+					</figure>
+					<p>极品酱牛肉</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou.jpg"></a>
+					</figure>
+					<p>嫩牛肉</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou2.jpg"></a>
+					</figure>
+					<p>牛肉丝</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou3.jpg"></a>
+					</figure>
+					<p>牛肉干</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou4.jpg"></a>
+					</figure>
+					<p>竹笋牛肉卷</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou5.jpg"></a>
+					</figure>
+					<p>黑胡椒牛肉</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou6.jpg"></a>
+					</figure>
+					<p>姜丝牛肉卷</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou7.jpg"></a>
+					</figure>
+					<p>香菜牛肉卷</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg_product.html"><img src="images/product-niurou8.jpg"></a>
+					</figure>
+					<p>金针菇牛肉卷</p>
+				</li>
+			</div>
+
+			<div class="tab-pane fade  caipin-list " id="huncai">
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai1.jpg"></a>
+					</figure>
+					<p>爆炒肥肠</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai2.jpg"></a>
+					</figure>
+					<p>糖醋排骨</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai3.jpg"></a>
+					</figure>
+					<p>口水鸡</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai4.jpg"></a>
+					</figure>
+					<p>钵钵鸡</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai5.jpg"></a>
+					</figure>
+					<p>辣子鸡</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai6.jpg"></a>
+					</figure>
+					<p>麻婆豆腐</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai7.jpg"></a>
+					</figure>
+					<p>冷吃兔</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai8.jpg"></a>
+					</figure>
+					<p>麻辣鸭</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product2.html"><img src="images/product-huncai9.jpg"></a>
+					</figure>
+					<p>郡肝</p>
+				</li>
+			</div>
+
+			<div class="tab-pane fade  caipin-list" id="sucai">
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai1.jpg"></a>
+					</figure>
+					<p>麻辣藕片</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai2.jpg"></a>
+					</figure>
+					<p>土豆丝</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai3.jpg"></a>
+					</figure>
+					<p>烂肉粉条</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai4.jpg"></a>
+					</figure>
+					<p>爆炒青菜</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai5.jpg"></a>
+					</figure>
+					<p>小鸡炖蘑菇</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai6.jpg"></a>
+					</figure>
+					<p>清炒莴笋</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai7.jpg"></a>
+					</figure>
+					<p>淀大白</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai8.jpg"></a>
+					</figure>
+					<p>瓢儿菜</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product3.html"><img src="images/product-sucai9.jpg"></a>
+					</figure>
+					<p>家常莲花白</p>
+				</li>
+			</div>
+
+			<div class="tab-pane fade  caipin-list" id="xiaochi">
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi1.jpg"></a>
+					</figure>
+					<p>酸辣粉</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi2.jpg"></a>
+					</figure>
+					<p>香辣鸡翅</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi3.jpg"></a>
+					</figure>
+					<p>叶儿粑</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi4.jpg"></a>
+					</figure>
+					<p>百香果</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi5.jpg"></a>
+					</figure>
+					<p>伤心凉面</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi6.jpg"></a>
+					</figure>
+					<p>冰镇凉粉</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi7.jpg"></a>
+					</figure>
+					<p>龙抄手</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi8.jpg"></a>
+					</figure>
+					<p>糍粑</p>
+				</li>
+				<li>
+					<figure>
+						<a href="msg-product4.html"><img src="images/product-xiaochi9.jpg"></a>
+					</figure>
+					<p>清蒸豆腐</p>
+				</li>
+			</div>
+
+	<footer class=" footer text-center">
+		<figure><a href="/"><img src="images/tou2.jpg"></a></figure>
+		<div class="footer-link">
+			<a href="./">首页</a>
+			<a href="aboutus.html">关于成都</a>
+			<a href="list_product.html">美食欣赏</a>
+			<a href="jiameng.html">景区特色</a>
+			<a href="list_book.html">热搜点评</a>
+			<a href="list_article.html">美食大新闻</a>
+			<a href="contactus.html">联系我们</a>
+		</div>
+		<div class="footer-cp">软件共建1班 | 实训9组
+			<br />2020年实训周</div>
+	</footer>
+
+
+</body>
+
+<script>
+	wow = new WOW(
+		{
+			animateClass: 'animated',
+			offset: 100
+		}
+	);
+	wow.init();
+
+</script>
+
+</html>
